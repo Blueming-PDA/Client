@@ -1,0 +1,45 @@
+#root {
+  text-align: center;
+}
+
+div.entire {
+  background-color: #f5f6ff;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+@font-face {
+  font-family: "yoon330";
+  src: url("./assets/fonts/윤고딕330.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "yoon340";
+  src: url("../assets/fonts/example.ttf") format("truetype");
+}
+
+body {
+  font-family: "yoon330" !important;
+  margin: 0;
+}

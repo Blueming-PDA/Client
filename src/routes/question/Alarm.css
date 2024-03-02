@@ -1,0 +1,23 @@
+.toast-red {
+    background-color: #F0FFFF;
+}
+
+.toast-green {
+    background-color: #FFE4E1;
+}
+
+.toast-blue {
+    background-color: #FFF8DC;
+}
+
+.toast-default {
+    background-color: #edeceb;
+}
+
+.grow-font-size {
+    font-size: 1.2em;
+}
+
+.fancy-progress-bar {
+    background: linear-gradient(to right, #f09, #f00);
+}

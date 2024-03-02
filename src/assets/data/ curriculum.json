@@ -1,0 +1,212 @@
+[
+  {
+    "date": "2024-02-12",
+    "day": "MON",
+    "holiday": true,
+    "content": "대체 휴일"
+  },
+  {
+    "date": "2024-02-13",
+    "day": "TUE",
+    "holiday": false,
+    "content": "클라우드 기반 프론트엔드 기초(JS) 프로그래밍(6H) / 기술 멘토 세션8(2H)"
+  },
+  {
+    "date": "2024-02-14",
+    "day": "WED",
+    "holiday": false,
+    "content": "클라우드 기반 프론트엔드 개발(React) 프로그래밍"
+  },
+  {
+    "date": "2024-02-15",
+    "day": "THU",
+    "holiday": false,
+    "content": "클라우드 기반 프론트엔드 개발(React) 프로그래밍"
+  },
+  {
+    "date": "2024-02-16",
+    "day": "FRI",
+    "holiday": false,
+    "content": "클라우드 기반 프론트엔드 개발(React) 프로그래밍"
+  },
+  {
+    "date": "2024-02-19",
+    "day": "MON",
+    "holiday": false,
+    "content": "클라우드 기반 프론트엔드 개발(React) 프로그래밍"
+  },
+  {
+    "date": "2024-02-20",
+    "day": "TUE",
+    "holiday": false,
+    "content": "클라우드 기반 프론트엔드 개발(React) 프로그래밍"
+  },
+  {
+    "date": "2024-02-21",
+    "day": "WED",
+    "holiday": false,
+    "content": "클라우드 기반 프론트엔드 개발(React) 프로그래밍"
+  },
+  {
+    "date": "2024-02-22",
+    "day": "THU",
+    "holiday": false,
+    "content": "클라우드 기반 프론트엔드 개발(React) 프로그래밍"
+  },
+  {
+    "date": "2024-02-23",
+    "day": "FRI",
+    "holiday": false,
+    "content": "클라우드 기반 프론트엔드 개발(React) 프로그래밍"
+  },
+  {
+    "date": "2024-02-26",
+    "day": "MON",
+    "holiday": false,
+    "content": "클라우드 기반 프론트엔드 개발(React) 프로그래밍"
+  },
+  {
+    "date": "2024-02-27",
+    "day": "TUE",
+    "holiday": false,
+    "content": "클라우드 기반 프론트엔드 개발(React) 프로그래밍"
+  },
+  {
+    "date": "2024-02-28",
+    "day": "WED",
+    "holiday": false,
+    "content": "클라우드 기반 프론트엔드 개발(React) 프로그래밍"
+  },
+  {
+    "date": "2024-02-29",
+    "day": "THU",
+    "holiday": false,
+    "content": "클라우드 기반 프론트엔드 개발(React) 프로그래밍"
+  },
+  {
+    "date": "2024-03-01",
+    "day": "FRI",
+    "holiday": true,
+    "content": "삼일절"
+  },
+  {
+    "date": "2024-03-04",
+    "day": "MON",
+    "holiday": false,
+    "content": "클라우드 기반 프론트엔드 개발(React) 프로그래밍"
+  },
+  {
+    "date": "2024-03-05",
+    "day": "TUE",
+    "holiday": false,
+    "content": "DevRel(Developer Relation) 신한투자 취업 특강"
+  },
+  {
+    "date": "2024-03-06",
+    "day": "WED",
+    "holiday": false,
+    "content": "(실무P1) Open API를 활용한 금융서비스를 제공하는 웹 사이트 구축"
+  },
+  {
+    "date": "2024-03-07",
+    "day": "THU",
+    "holiday": false,
+    "content": "(실무P1) Open API를 활용한 금융서비스를 제공하는 웹 사이트 구축"
+  },
+  {
+    "date": "2024-03-08",
+    "day": "FRI",
+    "holiday": false,
+    "content": "(실무P1) Open API를 활용한 금융서비스를 제공하는 웹 사이트 구축"
+  },
+  {
+    "date": "2024-03-11",
+    "day": "MON",
+    "holiday": false,
+    "content": "클라우드 기반 프론트엔드 개발(React) 프로그래밍"
+  },
+  {
+    "date": "2024-03-12",
+    "day": "TUE",
+    "holiday": false,
+    "content": "DevRel(Developer Relation) 신한투자 취업 특강"
+  },
+  {
+    "date": "2024-03-13",
+    "day": "WED",
+    "holiday": false,
+    "content": "(실무P1) Open API를 활용한 금융서비스를 제공하는 웹 사이트 구축"
+  },
+  {
+    "date": "2024-03-14",
+    "day": "THU",
+    "holiday": false,
+    "content": "(실무P1) Open API를 활용한 금융서비스를 제공하는 웹 사이트 구축"
+  },
+  {
+    "date": "2024-03-15",
+    "day": "FRI",
+    "holiday": false,
+    "content": "(실무P1) Open API를 활용한 금융서비스를 제공하는 웹 사이트 구축"
+  },
+  {
+    "date": "2024-03-18",
+    "day": "MON",
+    "holiday": false,
+    "content": "클라우드 기반 프론트엔드 개발(React) 프로그래밍"
+  },
+  {
+    "date": "2024-03-19",
+    "day": "TUE",
+    "holiday": false,
+    "content": "DevRel(Developer Relation) 신한투자 취업 특강"
+  },
+  {
+    "date": "2024-03-20",
+    "day": "WED",
+    "holiday": false,
+    "content": "(실무P1) Open API를 활용한 금융서비스를 제공하는 웹 사이트 구축"
+  },
+  {
+    "date": "2024-03-21",
+    "day": "THU",
+    "holiday": false,
+    "content": "(실무P1) Open API를 활용한 금융서비스를 제공하는 웹 사이트 구축"
+  },
+  {
+    "date": "2024-03-22",
+    "day": "FRI",
+    "holiday": false,
+    "content": "(실무P1) Open API를 활용한 금융서비스를 제공하는 웹 사이트 구축"
+  },
+  {
+    "date": "2024-03-25",
+    "day": "MON",
+    "holiday": false,
+    "content": "클라우드 기반 프론트엔드 개발(React) 프로그래밍"
+  },
+  {
+    "date": "2024-03-26",
+    "day": "TUE",
+    "holiday": false,
+    "content": "DevRel(Developer Relation) 신한투자 취업 특강"
+  },
+  {
+    "date": "2024-03-27",
+    "day": "WED",
+    "holiday": false,
+    "content": "(실무P1) Open API를 활용한 금융서비스를 제공하는 웹 사이트 구축"
+  },
+  {
+    "date": "2024-03-28",
+    "day": "THU",
+    "holiday": false,
+    "content": "(실무P1) Open API를 활용한 금융서비스를 제공하는 웹 사이트 구축"
+  },
+  {
+    "date": "2024-03-29",
+    "day": "FRI",
+    "holiday": false,
+    "content": "(실무P1) Open API를 활용한 금융서비스를 제공하는 웹 사이트 구축"
+  }
+]

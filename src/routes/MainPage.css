@@ -1,0 +1,128 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 9.1%;
+  background-color: #f5f6ff;
+}
+
+.btn-group {
+  display: flex;
+  gap: 60px;
+}
+
+.main-btn {
+  width: 250px;
+  height: 125px;
+  border-radius: 15px !important;
+  backdrop-filter: blur(5px);
+  background-color: #fff;
+  border-radius: 29px;
+  box-shadow: -1px 12px 20px 0px rgb(174 195 223 / 50%),
+    inset 1px 0px 16px 0px rgb(192 204 220 / 60%),
+    inset 0px 11px 28px 0px #ffffff;
+
+  color: #474747;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.point-img {
+  position: relative;
+  z-index: 1;
+  top: 45px;
+}
+
+.carousel .carousel-item {
+  transition: transform 1s ease-in-out;
+}
+
+.week-board {
+  width: 1000px;
+  height: 380px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: -1px 12px 20px 0px rgb(174 195 223 / 50%),
+    inset 1px 0px 16px 0px rgb(192 204 220 / 60%),
+    inset 0px 11px 28px 0px #ffffff;
+  position: relative;
+  margin: 0 auto;
+  bottom: -20px;
+}
+
+.week-board p {
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 35px;
+  color: #474747;
+}
+
+.week-card-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+
+.custom-card {
+  width: 155px;
+  height: 220px;
+  border: none;
+  box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin-top: 10px;
+  z-index: 2;
+}
+
+.custom-card:hover {
+  transform: scale(1.03);
+  transition: transform 0.5s;
+}
+
+/* TODO */
+.carousel-control-next,
+.carousel-control-prev {
+  filter: invert(100%);
+  opacity: 1 !important;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  opacity: 1 !important;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  background-color: gray;
+  border-radius: 50%;
+  position: absolute;
+  top: 17px;
+  left: 72.5px;
+}
+
+p.week-text {
+  color: #474747;
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 0px;
+}
+
+p.week-num {
+  color: #0048ff;
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: -15px;
+}
+
+p.week-num.holiday {
+  color: #ff3d50;
+}
+
+p.week-curriculum {
+  color: #474747;
+  font-size: 14px;
+  margin-top: -3px;
+}
