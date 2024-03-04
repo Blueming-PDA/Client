@@ -26,6 +26,7 @@ export default function MainLayout() {
             style={{
               backgroundColor: "#f5f6ff",
               maxWidth: "1120px",
+              marginBottom: '10vh'
             }}
           >
             <Outlet />
