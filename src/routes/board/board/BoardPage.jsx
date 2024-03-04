@@ -127,7 +127,7 @@ export default function BoardWritePage() {
       />
 
       <div className="board-name">게시판</div>
-      <div className="search-bar">
+      <div className="board-search-bar">
         <Form.Control
           className="search-form"
           type="search"
