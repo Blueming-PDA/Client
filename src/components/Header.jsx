@@ -105,17 +105,31 @@ const Header = () => {
           style={{ marginRight: "20px" }}
           onSubmit={(e) => e.preventDefault()}
         >
-          <FormControl
-            className="write-message"
-            type="text"
-            placeholder={message}
-            onKeyUp={(e) => onKeyUp(e)}
-            style={{
-              backgroundColor: "white",
-              border: "thin solid lightgray",
-              width: "500px",
-            }}
-          />
+          {userObj ? (
+            <FormControl
+              className="write-message"
+              type="text"
+              placeholder={message}
+              onKeyUp={(e) => onKeyUp(e)}
+              style={{
+                backgroundColor: "white",
+                border: "thin solid lightgray",
+                width: "500px",
+              }}
+            />
+          ) : (
+            <FormControl
+              className="write-message"
+              type="text"
+              placeholder={message}
+              onKeyUp={(e) => onKeyUp(e)}
+              disabled
+              style={{
+                border: "thin solid lightgray",
+                width: "500px",
+              }}
+            />
+          )}
         </Form>
 
         {user.isLoggedIn && user.userInfo ? (
