@@ -83,13 +83,13 @@ const Header = () => {
           width="200px"
           className="logo-img"
           alt="Blueming logo"
-          style={{ marginLeft: "50px" }}
+          style={{ marginLeft: "30px" }}
         />
       </Link>
       <Navbar.Collapse className="justify-content-end" style={{}}>
         <Form
           className="mr-2"
-          style={{ marginRight: "20px" }}
+          style={{ marginRight: "10px" }}
           onSubmit={(e) => e.preventDefault()}
         >
           <FormControl
@@ -100,13 +100,13 @@ const Header = () => {
             style={{
               backgroundColor: "white",
               border: "thin solid lightgray",
-              width: "500px",
+              width: "30vw",
             }}
           />
         </Form>
 
         {user.isLoggedIn && user.userInfo ? (
-          <div style={{ display: "flex", marginRight: "50px" }}>
+          <div style={{ display: "flex", marginRight: "20px" }}>
             <Nav.Link href="/users/mypage">
               <div style={{ fontSize: "17px" }}>✌️ {user.userInfo.name}님</div>
             </Nav.Link>
