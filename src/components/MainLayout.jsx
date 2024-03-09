@@ -25,7 +25,9 @@ export default function MainLayout() {
           <Container
             style={{
               backgroundColor: "#f5f6ff",
-              maxWidth: "1120px",
+              maxWidth: "1100px",
+              marginBottom: '15vh',
+              marginTop: '3vh'
             }}
           >
             <Outlet />
