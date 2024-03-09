@@ -142,7 +142,6 @@ export default function BoardDetailPage() {
     }
   }
   const convertNewlinesToHtml = (text) => {
-    console.log(text);
     return text
       ? text.split("\n").map((line, index) => (
           <React.Fragment key={index}>

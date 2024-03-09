@@ -6,6 +6,8 @@ import { useSelector, useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { logout } from "../store/reducers/user";
 import { fetchLogout } from "../lib/apis/auth";
+import { writeHeaderMessage } from "../lib/apis/headerMessage";
+import { getHeaderMessage } from "../lib/apis/headerMessage";
 import {
   emitHeaderMessage,
   onHeaderMessageBack,
@@ -26,11 +28,29 @@ const Header = () => {
     return state.user.userInfo;
   });
 
-  // useEffect(() => {
-  //   fetchGetProfileImage(user.userInfo._id).then((data) => {
-  //     setSelectedImage(data);
-  //   });
-  // }, []);
+  const [headerMessage, setHeaderMessage] = useState({
+    headerMessage: "",
+    userId: "",
+    userName: "",
+  });
+
+  const handleWriteMessage = async (newMessage) => {
+    const updatedHeaderMessage = {
+      userId: userObj._id,
+      headerMessage: newMessage,
+      userName: userObj.name,
+    };
+
+    setHeaderMessage(updatedHeaderMessage);
+    await writeHeaderMessage(updatedHeaderMessage);
+  };
+
+  function onKeyUp(e) {
+    if (e.key === "Enter") {
+      console.log(e.target.value);
+      handleWriteMessage(e.target.value);
+    }
+  }
 
   const handleLogout = async () => {
     if (window.confirm("로그아웃 하시겠습니까?")) {
@@ -46,26 +66,19 @@ const Header = () => {
     }
   };
 
-  const handleWriteMessage = async (userObj, newMessage) => {
-    await emitHeaderMessage(userObj, newMessage);
-  };
-
-  function onKeyUp(e) {
-    if (e.key === "Enter") {
-      handleWriteMessage(userObj, e.target.value);
-    }
-  }
-
   useEffect(() => {
-    socket.emit("getRecentMessage");
-
-    socket.on("setHeaderMessageBack", (newMessage) => {
-      setMessage(newMessage);
-    });
-
-    return () => {
-      socket.off("setHeaderMessageBack");
+    const fetchHeaderMessage = async () => {
+      try {
+        const headerMsg = await getHeaderMessage();
+        if (headerMsg) {
+          setMessage(headerMsg);
+        }
+      } catch (error) {
+        console.error("헤더 메시지 조회 중 오류가 발생했습니다:", error);
+      }
     };
+
+    fetchHeaderMessage(); // 호출
   }, []);
 
   return (
@@ -92,17 +105,32 @@ const Header = () => {
           style={{ marginRight: "10px" }}
           onSubmit={(e) => e.preventDefault()}
         >
-          <FormControl
-            className="write-message"
-            type="text"
-            placeholder={message}
-            onKeyUp={(e) => onKeyUp(e)}
-            style={{
-              backgroundColor: "white",
-              border: "thin solid lightgray",
-              width: "30vw",
-            }}
-          />
+
+          {userObj ? (
+            <FormControl
+              className="write-message"
+              type="text"
+              placeholder={message}
+              onKeyUp={(e) => onKeyUp(e)}
+              style={{
+                backgroundColor: "white",
+                border: "thin solid lightgray",
+                width: "30vw",
+              }}
+            />
+          ) : (
+            <FormControl
+              className="write-message"
+              type="text"
+              placeholder={message}
+              onKeyUp={(e) => onKeyUp(e)}
+              disabled
+              style={{
+                border: "thin solid lightgray",
+                width: "30vw",
+              }}
+            />
+          )}
         </Form>
 
         {user.isLoggedIn && user.userInfo ? (

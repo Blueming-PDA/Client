@@ -28,7 +28,7 @@ export default function SignUpPage() {
   );
 
   return (
-    <Container className="min-vh-100  d-flex flex-column justify-content-center align-items-center">
+    <Container className="appContainer">
       <div style={{ width: "100%", maxWidth: 640 }}>
         <img className="logo" alt="point" src={point} />
         <h3 style={{ alignSelf: "start" }}> 환영합니다!</h3>

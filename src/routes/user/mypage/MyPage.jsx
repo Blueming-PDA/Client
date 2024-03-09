@@ -142,17 +142,16 @@ const ProfilePage = () => {
                 <p>
                   <strong>Phone </strong> {userObj.phone}
                 </p>
-              </div>
-              <div
-                className="d-flex align-items-center"
-                style={{ marginLeft: "30px", marginBottom: "20px" }}
-              >
-                <Button className="passwordbtn" onClick={handleShowModal}>
-                  <span className="passwordbtnName">비밀번호 변경</span>
-                </Button>
-                <span className="passwordContent">
-                  비밀번호 변경시,<br></br> 비밀번호 재입력이 필요합니다.
-                </span>
+                <p style={{ marginBottom: "2px" }}>
+                  <strong>Password </strong>{" "}
+                  <Button className="passwordbtn" onClick={handleShowModal}>
+                    <span className="passwordbtnName">비밀번호 변경</span>
+                  </Button>
+                </p>
+                <div style={{ fontSize: "15px" }}>
+                  {" "}
+                  비밀번호 변경시, 비밀번호 재입력이 필요합니다.
+                </div>
               </div>
             </div>
           </div>

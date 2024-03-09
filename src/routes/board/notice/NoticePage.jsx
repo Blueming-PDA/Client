@@ -107,7 +107,7 @@ export default function NoticePage() {
       />
 
       <div className="board-name">공지사항</div>
-      <div className="search-bar">
+      <div className="board-search-bar">
         <Form.Control
           className="search-form"
           type="search"
