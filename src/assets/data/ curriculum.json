@@ -120,6 +120,18 @@
     "content": "(실무P1) Open API를 활용한 금융서비스를 제공하는 웹 사이트 구축"
   },
   {
+    "date": "2024-03-09",
+    "day": "SAT",
+    "holiday": true,
+    "content": "주말"
+  },
+  {
+    "date": "2024-03-10",
+    "day": "SUN",
+    "holiday": true,
+    "content": "주말"
+  },
+  {
     "date": "2024-03-11",
     "day": "MON",
     "holiday": false,
