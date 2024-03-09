@@ -39,6 +39,7 @@ export default function NoticeDetailPage() {
     userId = "trash";
     userAdmin = "trash";
   }
+  const userName = userObj.name;
 
   const callCommentData = async () => {
     try {
@@ -132,7 +133,6 @@ export default function NoticeDetailPage() {
   };
 
   const convertNewlinesToHtml = (text) => {
-    console.log(text);
     return text
       ? text.split("\n").map((line, index) => (
           <React.Fragment key={index}>

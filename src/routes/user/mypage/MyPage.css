@@ -1,5 +1,5 @@
 .searchbtn {
-  width: 100px;
+  /* width: 100px;
   height: 45px;
   border-radius: 15px !important;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
@@ -7,11 +7,13 @@
   color: #474747;
   border: none;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 500; */
+  width: 60px;
 }
 
 .passwordbtn {
-  width: 120px;
+  margin: 5px 0px;
+  /* width: 120px;
   height: px;
   border-radius: 15px !important;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
@@ -19,7 +21,7 @@
   color: #474747;
   border: none;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 500; */
 }
 
 .myInfoBox {
@@ -27,7 +29,9 @@
   height: 340px;
   background-color: #ebf1ff;
   border-radius: 20px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: -1px 12px 20px 0px rgb(174 195 223 / 50%),
+    inset 1px 0px 16px 0px rgb(192 204 220 / 60%),
+    inset 0px 11px 28px 0px #ffffff;
   position: relative;
   padding-top: 20px;
   margin: 0 auto;
@@ -53,6 +57,7 @@
 }
 
 .search-bar {
+  display: flex;
   margin-top: 40px;
   margin-bottom: 30px;
 }
@@ -86,7 +91,10 @@
   background-color: #ffffff;
   align-items: center;
   gap: 20px;
-  display: block; /* flex 대신 block 속성을 적용 */
+  display: block;
+  box-shadow: -1px 12px 20px 0px rgb(174 195 223 / 50%),
+    inset 1px 0px 16px 0px rgb(192 204 220 / 60%),
+    inset 0px 11px 28px 0px #ffffff;
 }
 .extended-list-item {
   margin-bottom: 10px;

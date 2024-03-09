@@ -30,7 +30,7 @@ export default function CodeShare() {
 
     useEffect(() => {
         if (!link) return;
-
+        console.log(link);
         const getContent = async () => {
             setLoading(true);
             try {
@@ -81,7 +81,7 @@ export default function CodeShare() {
         } else {
             return (
                 <div>⌨️ 코드 화면 공유
-                    <div>{userObj.name}님의 화면을 보고있습니다.</div>
+                    <div>{link.userName}님의 화면을 보고있습니다.</div>
                     <div style={{ display: 'flex', alignItems: 'flex-end', marginBottom: '10px' }}>
                         <Button onClick={newWindow}>🖥️ 새창으로 보기</Button>
                         {userObj._id === link.userId ? <Button onClick={stopSharing}>공유 중지하기</Button> : <></>}

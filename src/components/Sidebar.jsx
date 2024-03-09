@@ -58,7 +58,7 @@ const Sidebar = () => {
           공지사항
         </Nav.Link>
         <Nav.Link
-          href="https://github.com/Blueming-PDA/Blueming/blob/docs/README.md"
+          href="https://github.com/Blueming-PDA/Blueming/blob/main/README.md"
           className="nav-link"
           target="_blank"
           style={{ color: "#5D5D5D", fontWeight: "normal", fontSize: "19px" }}

@@ -70,14 +70,14 @@ export default function MainPage() {
   };
 
   // socket 연결 확인
-  useEffect(() => {
-    console.log(socket);
+  // useEffect(() => {
+  //   console.log(socket);
 
-    // socket.on('connection', (io) => {
-    //   console.log('SocketID::', io.id);
+  //   // socket.on('connection', (io) => {
+  //   //   console.log('SocketID::', io.id);
 
-    // })
-  });
+  //   // })
+  // });
 
   return (
     <div className="main-container">

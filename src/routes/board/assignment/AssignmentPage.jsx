@@ -98,7 +98,7 @@ export default function AssignmentPage() {
       />
 
       <div className="board-name">과제함</div>
-      <div className="search-bar">
+      <div className="board-search-bar">
         <Form.Control
           className="search-form"
           type="search"

@@ -123,7 +123,6 @@ export default function AssignmentDetailPage() {
     }
   };
   const convertNewlinesToHtml = (text) => {
-    console.log(text);
     return text
       ? text.split("\n").map((line, index) => (
           <React.Fragment key={index}>
