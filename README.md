@@ -203,3 +203,6 @@ EC2 인스턴스 내에서는 nginx 웹서버를 통해 통신함. <br />
 └─ views
 
 ```
+
+### 기타
+<a href="https://www.freepik.com/free-psd/3d-render-avatar-character_51761410.htm">캐릭터 이미지 출처</a>
